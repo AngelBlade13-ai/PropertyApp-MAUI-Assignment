@@ -4,6 +4,14 @@ PropertyApp is a .NET MAUI mobile application that displays a small real-estate 
 
 This project was built for a .NET MAUI course assignment to demonstrate multi-platform UI development, navigation, MVVM-style data binding, local assets, remote images, and reusable UI controls.
 
+## Video Demo
+
+
+
+https://github.com/user-attachments/assets/e9f6bfbf-8ba2-4cac-9efc-49e7ad35a88e
+
+
+
 ## Project Structure
 
 - `Model/` - Property data model and sample property repository.
