@@ -1,12 +1,6 @@
-using System.Collections.Generic;
-using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
 using PropertyApp.Model;
 using PropertyApp.View;
-
+using System.Windows.Input;
 
 namespace PropertyApp.ViewModel
 {

@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using PropertyApp.Model;
+using System.Windows.Input;
 
 namespace PropertyApp.ViewModel
 {
     public class DetailsViewModel : BaseViewModel
     {
+        public Property SelectedProperty { get; set; }
+        public List<string> PropertyImages { get; set; }
+        public int MoreItems { get; set; }
+
+        public ICommand CloseCommand => new Command(() => Application.Current.MainPage.Navigation.PopAsync());
     }
 }

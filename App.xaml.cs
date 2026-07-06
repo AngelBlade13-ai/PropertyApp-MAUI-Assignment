@@ -7,11 +7,8 @@ namespace PropertyApp
         public App()
         {
             InitializeComponent();
-        }
 
-        protected override Window CreateWindow(IActivationState? activationState)
-        {
-            return new Window(new NavigationPage(new LandingPage()));
+            MainPage = new NavigationPage(new LandingPage());
         }
     }
 }
